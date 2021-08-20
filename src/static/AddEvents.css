@@ -1,0 +1,86 @@
+.containerAddEvent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #86bbbd;
+  margin-left: 275px;
+  margin-top: 76px;
+}
+
+.containerevent {
+  background-color: rgba(233, 233, 233, 0.699);
+  width: 50%;
+  height: 130%;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.eventheader {
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.eventheader h4 {
+  float: left;
+  font-family: Calibri;
+  color: black;
+}
+.progress {
+  width: 400px;
+  height: 8px;
+}
+.textbox {
+  width: 400px;
+  height: 50px;
+}
+.eventheader .my {
+  border-bottom: 8px solid transparent;
+}
+
+.imageUpload img {
+  float: left;
+}
+
+.imageUpload button {
+  float: left;
+  clear: left;
+  margin-top: 30px;
+}
+
+.imageinfo {
+  display: flex;
+  flex-direction: column;
+}
+.containerevent .submit {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: firebrick;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  border: none;
+  width: 30%;
+}
+.containerevent .upload {
+  border: none;
+  background-color: firebrick;
+  padding: 10px;
+  border-radius: 10px;
+  color: whitesmoke;
+  width: 50%;
+}
+.containerevent .submit {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.containerevent .submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
